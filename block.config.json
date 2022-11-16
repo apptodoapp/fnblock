@@ -1,0 +1,13 @@
+{
+  "name": "fnblock",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/apptodoapp/fnblock",
+    "ssh": "git@github.com:apptodoapp/fnblock.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
